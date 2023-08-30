@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 226, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1 {
+    font-size: 15vmin;
+    margin: 1em;
+}
+button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    box-shadow: 2px 3px 4px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: translateX(100px)
+}
+button .enter {
+    width: 25px;
+    height: 20px;
+    padding-left: 6px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: navy;
+}
+button:hover {
+    background-color: aliceblue;
+    transition: .3s ease-in-out;
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 60vh;
+    }
+}
